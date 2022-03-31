@@ -1,7 +1,6 @@
 header{
     width: 100%;
     background: #fff;
-    position: fixed;
     box-shadow: 0px 5px 10px 0px gray;
 }
 .header__container{
@@ -9,6 +8,16 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.mat__menu{
+    background-color: #fff;
+}
+.mat__item{
+    background-color: #fff;
+}
+.mat__item:hover{
+    background-color: #fff;
+    color: blue;
 }
 .header__menu{
     display: flex;
@@ -20,8 +29,4 @@ header{
     color: #000;
     padding: 5px 10px;
     border-radius: 10px;
-}
-.header__link:hover{
-    color: #fff;
-    background-color: #20232a;
 }

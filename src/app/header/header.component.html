@@ -1,11 +1,19 @@
+
 <header>
-    <div class="header__container">
+    <div  class=" header__container" >
         <nav>
-            <ul class="header__menu">
+            <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+            <mat-menu #menu="matMenu" class="mat__menu">
+            <button mat-menu-item class="mat__item">
                 <li><a href="#main" class="header__link">Inicio</a></li>
+            </button>
+            <button mat-menu-item class="mat__item">
                 <li><a href="#skills" class="header__link">Lenguajes</a></li>
+            </button>
+            <button mat-menu-item class="mat__item">
                 <li><a href="#footer" class="header__link">Contacto</a></li>
-            </ul>
+            </button>
+            </mat-menu>
         </nav>
     </div>
 </header>

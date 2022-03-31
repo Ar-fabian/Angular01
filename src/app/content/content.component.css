@@ -19,6 +19,9 @@
 .main__title{
     font-size: 1.5rem;
 }
+.main__btn{
+    background-color: blue;
+}
 .main_dev{
     color: #06bcee;
     font-size: 2rem;
@@ -26,6 +29,10 @@
 .main__svg{
     width: 500px;
     height: 100%;
+}
+.example-card {
+    max-width: 400px;
+    text-align: center;
 }
 .skills{
     width: 100%;
